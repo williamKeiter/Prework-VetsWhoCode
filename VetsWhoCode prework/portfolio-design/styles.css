@@ -1,0 +1,77 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero {
+    height: 100%;
+    background: url("/images/etna_sunset.png") no-repeat center center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* .hero-section {
+    background: #ECECEC;
+    padding: 0 60px;
+    color: rgb(12, 12, 12);
+}
+
+.hero {
+    background: #E8E8E8;		
+    padding: 0 60px;
+    color: #E8E8E8;
+}
+
+.hero-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 820px;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.column-left h1 {
+    font-size: 80px;
+}
+
+.column-left p {
+    font-size: 16px;
+    line-height: 2.3;
+}
+
+.column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+
+
+@media screen and (max-width: 1000px) {
+    .hero-section {
+        padding: 30px;
+    }
+
+    .hero-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .column-left h1 {
+        font-size: 80px;
+    }
+}
